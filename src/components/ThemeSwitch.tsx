@@ -1,7 +1,7 @@
 'use client'
 import { useEffect, useState } from "react"
-import DarkModeOutlinedIcon from '@mui/icons-material/DarkModeOutlined';
-import WbSunnyOutlinedIcon from '@mui/icons-material/WbSunnyOutlined';
+import { MdOutlineDarkMode } from "react-icons/md";
+import { MdOutlineLightbulb } from "react-icons/md";
 
 const ThemeSwitch: React.FC = () => {
 
@@ -21,9 +21,9 @@ const ThemeSwitch: React.FC = () => {
         <div onClick={toogleTheme} className="fixed right-4 top-24 cursor-pointer md:right-24">
             {
                 darkTheme ? 
-                <WbSunnyOutlinedIcon sx={{ fontSize: 36, color: '#FFFFFF'}}/>
+                <MdOutlineLightbulb style={{color: "#FFFFFF", fontSize: 36}} />
                 :
-                <DarkModeOutlinedIcon sx={{ fontSize: 36, color: '#000000'}}/>
+                <MdOutlineDarkMode style={{color: '#000000', fontSize: 36}}/>
             }
         </div>
     )

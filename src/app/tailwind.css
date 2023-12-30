@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    .h1 {
+        @apply md:text-5xl text-4xl font-bold text-light-primary dark:text-dark-primary;
+    }
+    .h2 {
+        @apply md:text-2xl text-lg font-bold text-light-primary dark:text-dark-primary;
+    }
+    .h3 {
+        @apply md:text-base text-sm font-bold text-light-secondary dark:text-dark-secondary;
+    }
+    .p {
+        @apply md:text-base text-sm text-light-secondary dark:text-dark-secondary;
+    }
+}
+
+@layer components {
+    .social-icon {
+        @apply transition-all text-2xl md:text-4xl text-light-secondary cursor-pointer hover:text-light-main dark:hover:text-dark-main dark:text-dark-secondary;
+    }
+    .social-button {
+        @apply transition-all font-bold text-light-secondary px-4 py-2 border-2 border-[#333] rounded-2xl cursor-pointer dark:border-[#BDC3C7] dark:text-dark-secondary hover:bg-light-secondary hover:border-light-primary hover:text-dark-tertiary dark:hover:bg-dark-secondary dark:hover:border-dark-primary dark:hover:text-dark-tertiary
+    }
+}
