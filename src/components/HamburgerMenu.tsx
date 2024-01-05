@@ -8,7 +8,6 @@ const HamburgerMenu = () => {
     const toogleMenu = () => {
         setVisible(!visible)
     }
-    console.log(visible);
 
     return (
         <>

@@ -4,14 +4,16 @@ import NavBar from '../components/NavBar'
 import HamburgerMenu from '../components/HamburgerMenu'
 import ThemeSwitch from '@/components/ThemeSwitch'
 import FirstSection from '@/sections/FirstSection'
+import SecondSection from '@/sections/SecondSection'
 
 export default function Home() {
   return (
-    <div className='light'>
+    <div>
       <NavBar />
       <HamburgerMenu />
       <ThemeSwitch />
       <FirstSection />
+      <SecondSection />
     </div>
   )
 }
