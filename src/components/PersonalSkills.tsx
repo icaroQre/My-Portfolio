@@ -14,7 +14,7 @@ import SVGts from "@/icons/SVGts"
 import { AnyMxRecord } from "dns"
 import React, { useEffect, useState } from "react"
 
-const TechIcons = () => {
+const PersonalSkills = () => {
     
     const [description, setDescription] = useState <String>('↑ Toque sobre o ícone que deseja saber mais detalhes ↑')
     const skills: any = useSkills()
@@ -29,34 +29,34 @@ const TechIcons = () => {
     return(
         <>
             <div className="md:w-3/6 w-3/4 flex flex-row items-center justify-center my-6 flex-wrap min-w-96">
-                <div id="html" onMouseOver={(event: React.MouseEvent<HTMLElement>) => selectDescription(event.currentTarget.id)} onMouseLeave={() => defaultDescription()} className="cursor-pointer hover:scale-125 transition-all">
+                <div id="html" onClick={(event: React.MouseEvent<HTMLElement>) => selectDescription(event.currentTarget.id)} className="cursor-pointer hover:scale-125 transition-all">
                     <SVGhtml width={50} height={50} className="pointer-events-none md:m-8 m-4"/>
                 </div>
-                <div id="css" onMouseOver={(event: React.MouseEvent<HTMLElement>) => selectDescription(event.currentTarget.id)} onMouseLeave={() => defaultDescription()} className="cursor-pointer hover:scale-125 transition-all">
+                <div id="css" onClick={(event: React.MouseEvent<HTMLElement>) => selectDescription(event.currentTarget.id)} className="cursor-pointer hover:scale-125 transition-all">
                     <SVGcss width={50} height={50} className="pointer-events-none md:m-8 m-4" />
                 </div>
-                <div id="figma" onMouseOver={(event: React.MouseEvent<HTMLElement>) => selectDescription(event.currentTarget.id)} onMouseLeave={() => defaultDescription()} className="cursor-pointer hover:scale-125 transition-all">
+                <div id="figma" onClick={(event: React.MouseEvent<HTMLElement>) => selectDescription(event.currentTarget.id)} className="cursor-pointer hover:scale-125 transition-all">
                     <SVGfigma width={50} height={50} className="pointer-events-none md:m-8 m-4"/>
                 </div>
-                <div id="javaScript" onMouseOver={(event: React.MouseEvent<HTMLElement>) => selectDescription(event.currentTarget.id)} onMouseLeave={() => defaultDescription()} className="cursor-pointer hover:scale-125 transition-all">
+                <div id="javaScript" onClick={(event: React.MouseEvent<HTMLElement>) => selectDescription(event.currentTarget.id)} className="cursor-pointer hover:scale-125 transition-all">
                     <SVGjs width={50} height={50} className="pointer-events-none md:m-8 m-4"/>
                 </div>
-                <div id="typeScript" onMouseOver={(event: React.MouseEvent<HTMLElement>) => selectDescription(event.currentTarget.id)} onMouseLeave={() => defaultDescription()} className="cursor-pointer hover:scale-125 transition-all">
+                <div id="typeScript" onClick={(event: React.MouseEvent<HTMLElement>) => selectDescription(event.currentTarget.id)} className="cursor-pointer hover:scale-125 transition-all">
                     <SVGts width={50} height={50} className="pointer-events-none md:m-8 m-4"/>
                 </div>
-                <div id="reactJs" onMouseOver={(event: React.MouseEvent<HTMLElement>) => selectDescription(event.currentTarget.id)} onMouseLeave={() => defaultDescription()} className="cursor-pointer hover:scale-125 transition-all">
+                <div id="reactJs" onClick={(event: React.MouseEvent<HTMLElement>) => selectDescription(event.currentTarget.id)} className="cursor-pointer hover:scale-125 transition-all">
                     <SVGreact width={50} height={50} className="pointer-events-none md:m-8 m-4"/>
                 </div>
-                <div id="styledComponents" onMouseOver={(event: React.MouseEvent<HTMLElement>) => selectDescription(event.currentTarget.id)} onMouseLeave={() => defaultDescription()} className="cursor-pointer hover:scale-125 transition-all">
+                <div id="styledComponents" onClick={(event: React.MouseEvent<HTMLElement>) => selectDescription(event.currentTarget.id)} className="cursor-pointer hover:scale-125 transition-all">
                     <SVGstyledComponents width={50} height={50} className="pointer-events-none md:m-8 m-4"/>
                 </div>
-                <div id="tailwind" onMouseOver={(event: React.MouseEvent<HTMLElement>) => selectDescription(event.currentTarget.id)} onMouseLeave={() => defaultDescription()} className="cursor-pointer hover:scale-125 transition-all">
+                <div id="tailwind" onClick={(event: React.MouseEvent<HTMLElement>) => selectDescription(event.currentTarget.id)} className="cursor-pointer hover:scale-125 transition-all">
                     <SVGtailwind width={50} height={50} className="pointer-events-none md:m-8 m-4"/>
                 </div>
-                <div id="mongoDb" onMouseOver={(event: React.MouseEvent<HTMLElement>) => selectDescription(event.currentTarget.id)} onMouseLeave={() => defaultDescription()} className="cursor-pointer hover:scale-125 transition-all">
+                <div id="mongoDb" onClick={(event: React.MouseEvent<HTMLElement>) => selectDescription(event.currentTarget.id)} className="cursor-pointer hover:scale-125 transition-all">
                     <SVGmongo width={50} height={50} className="pointer-events-none md:m-8 m-4"/>
                 </div>
-                <div id="postgreSql" onMouseOver={(event: React.MouseEvent<HTMLElement>) => selectDescription(event.currentTarget.id)} onMouseLeave={() => defaultDescription()} className="cursor-pointer hover:scale-125 transition-all">
+                <div id="postgreSql" onClick={(event: React.MouseEvent<HTMLElement>) => selectDescription(event.currentTarget.id)} className="cursor-pointer hover:scale-125 transition-all">
                     <SVGpostgresql width={50} height={50} className="pointer-events-none md:m-8 m-4"/>
                 </div>
             </div>
@@ -68,4 +68,4 @@ const TechIcons = () => {
     )
 }
 
-export default TechIcons 
+export default PersonalSkills 

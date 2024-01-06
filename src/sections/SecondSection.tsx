@@ -1,4 +1,7 @@
-import TechIcons from '@/components/TechIcons'
+import PersonalSkills from '@/components/PersonalSkills'
+import TimeLine from '@/components/TimeLine'
+import TimeLineCard from '@/components/TimeLineCard'
+import TimeLineMobile from '@/components/TimeLineMobile'
 import SVGcss from '@/icons/SVGcss'
 import SVGfigma from '@/icons/SVGfigma'
 import SVGhtml from '@/icons/SVGhtml'
@@ -12,10 +15,13 @@ import SVGts from '@/icons/SVGts'
 
 const SecondSection: React.FC = () => {
     return(
-        <div className="w-screen flex flex-col items-center justify-center pt-32 bg-light-primary dark:bg-dark-primary">
-            <p className="h2"> Um pouco sobre mim </p>
-
-            <TechIcons />
+        <div className='w-screen flex flex-col items-center justify-center bg-light-primary dark:bg-dark-primary'>
+            <div className="w-screen flex flex-col items-center justify-center py-32 bg-light-primary dark:bg-dark-primary">
+                <p className="h2"> Um pouco sobre mim </p>
+                <PersonalSkills />
+            </div>
+            <TimeLine />
+            <TimeLineMobile />
         </div>
     )
 }

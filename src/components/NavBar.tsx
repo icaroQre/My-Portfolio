@@ -3,7 +3,7 @@ import React from "react";
 const NavBar: React.FC = () => {
 
     return(
-        <div className="fixed top-0 left-0 hidden md:w-screen md:bg-inherit md:flex md:items-center md:justify-between md:py-4 md:px-16 md:bg-light-primary md:dark:bg-dark-primary" >
+        <div className="fixed z-50 top-0 left-0 hidden md:w-screen md:bg-inherit md:flex md:items-center md:justify-between md:py-4 md:px-16 md:bg-light-primary md:dark:bg-dark-primary" >
             <p className="font-bold text-xl text-light-tertiary dark:text-dark-tertiary cursor-pointer"> QRE </p>
             <ul className="flex items-center justify-center">
                 {[
