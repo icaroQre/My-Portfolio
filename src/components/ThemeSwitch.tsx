@@ -18,7 +18,7 @@ const ThemeSwitch: React.FC = () => {
     }, [darkTheme])
     
     return (
-        <div onClick={toogleTheme} className="fixed right-4 top-24 cursor-pointer md:right-24">
+        <div onClick={toogleTheme} className="fixed right-4 top-24 cursor-pointer md:right-24 z-50">
             {
                 darkTheme ? 
                 <MdOutlineLightbulb style={{color: "#FFFFFF", fontSize: 36}} />

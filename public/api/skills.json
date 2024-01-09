@@ -32,7 +32,7 @@
     {
         "'id": 7,
         "name": "nextJs",
-        "description": "O React é uma biblioteca front-end JavaScript de código aberto com foco em criar interfaces de usuário em páginas web."
+        "description": "Next.js é uma estrutura da web de desenvolvimento front-end React de código aberto criada por Vercel que permite funcionalidades como renderização do lado do servidor e geração de sites estáticos para aplicativos da web baseados em React."
     },
     {
         "'id": 8,

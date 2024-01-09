@@ -3,8 +3,10 @@ import styles from './page.module.css'
 import NavBar from '../components/NavBar'
 import HamburgerMenu from '../components/HamburgerMenu'
 import ThemeSwitch from '@/components/ThemeSwitch'
-import FirstSection from '@/sections/FirstSection'
-import SecondSection from '@/sections/SecondSection'
+import HeroSection from '@/sections/HeroSection'
+import AboutSection from '@/sections/AboutSection'
+import ProjectSection from '@/sections/ProjectSection'
+import Footer from '@/components/Footer'
 
 export default function Home() {
   return (
@@ -12,8 +14,10 @@ export default function Home() {
       <NavBar />
       <HamburgerMenu />
       <ThemeSwitch />
-      <FirstSection />
-      <SecondSection />
+      <HeroSection />
+      <AboutSection />
+      <ProjectSection />
+      <Footer />
     </div>
   )
 }
