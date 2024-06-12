@@ -1,36 +1,28 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Concheça meu Web Portfolio :computer:
 
-## Getting Started
+## Sobre 📘
 
-First, run the development server:
+[Acesse meu Portfolio pessoal qui](https://my-portfolio-gilt-seven-12.vercel.app/), desenvolvido com o objetivo de estudo WEB e demonstração de uma parte de meus conhecimentos e projetos, a aplicação é totalmente responsiva para diversos tipos de layout, conta com a funçãod e mudança de tema Light☀️/Dark🌑 Mode, funções e componentes interativos e todos os contatos e informações pessoais necessárias sobre mim. Contato com 3 sessões principais:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+1. Hero Section 
+2. Sobre
+   - Tecnologias
+   - Time Line
+3. Meus Projetos
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Hero Section 🦸
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+A Hero Section é a primeira coisa que os visitantes veem ao acessar meu portfólio. Nesta seção, há uma breve introdução com meu nome e um pequeno texto sobre mim e meu objetivo. Ela também inclui uma imagem interativa minha na versão Desktop, além de botões para redes sociais para entrar em contato comigo e um link para meu currículo.
+![Hero Section](public/images/hero.png)
+![Hero Section](public/images/hero-dark.png)
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-## Learn More
+## Sobre ☕
 
-To learn more about Next.js, take a look at the following resources:
+Na seção Sobre, apresento uma descrição mais detalhada sobre as tecnologias em que já trabalhei, possuindo uma caixa de texto interativa que apresenta ao usuário uma pequena descrição sobre a tecnologia quando seu ícone é selecionado, após isso, é apresentado uma pequena time line sobre minha trajetória desde meu primeiro contato com programação. Aqui, os visitantes podem aprender sobre minha trajetória profissional, minhas habilidades, interesses e quaisquer outras informações relevantes que me definem como profissional.
+![Hero Section](public/images/about.png)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Projetos ⚙️
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+A seção Projetos destaca alguns dos trabalhos que já realizei. Para cada projeto, forneço uma breve descrição, as tecnologias utilizadas, e, quando aplicável, links para o código-fonte no GitHub ou para uma demonstração ao vivo. Esta visa demonstrar minhas competências técnicas e minha capacidade de aplicar conhecimentos em projetos reais.
+![Hero Section](public/images/projects.png)
