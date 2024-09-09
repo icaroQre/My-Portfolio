@@ -21,7 +21,9 @@ const HeroSection: React.FC = () => {
                     <p className="h1 font-light text-light-main dark:text-dark-main hidden md:flex whitespace-nowrap"> 
                         <Typewriter words={["<Desenvolvedor />"]} typeSpeed={200} deleteSpeed={100} loop={false} cursor={true}/>
                     </p>
-                    <p className="h1 font-light text-light-main dark:text-dark-main flex md:hidden whitespace-nowrap"> &lt; Developer &frasl; &gt; </p>
+                    <p className="h1 font-light text-light-main dark:text-dark-main flex md:hidden whitespace-nowrap">
+                        <Typewriter words={["<Developer />"]} typeSpeed={200} deleteSpeed={100} loop={false} cursor={true}/>
+                    </p>
             </Fade>
             <Fade direction="left" delay={200}>
                     <p className="h3 mt-8 mb-4">Olá! sou um estudante de Ciência da Computação apaixonado por criar experiências digitais incríveis. Com habilidades técnicas sólidas e uma atenção especial ao design, transformo conceitos em sistemas interativos e funcionais. Pegue um café e conheça um pouco sobre mim e alguns projetos em que trabalhei. : )</p>
@@ -40,7 +42,7 @@ const HeroSection: React.FC = () => {
                          </Fade>
                 <Fade direction="right">
                     <div className="w-[350px] h-[460px] relative items-center justify-center overflow-hidden rounded-2xl z-20 right-[175px]">
-                        <Image className="saturate-[0] hover:saturate-[1.1] transition-all cursor-pointer" src={profilePic} alt="Ícaro Queiroz Reccanello" fill={true} sizes="(max-width: 768px)"/>
+                        <Image className="saturate-[1.1] hover:saturate-[0] transition-all cursor-pointer" src={profilePic} alt="Ícaro Queiroz Reccanello" fill={true} sizes="(max-width: 768px)"/>
                     </div>
                 </Fade>
             </div>
