@@ -1,27 +1,27 @@
 [
     {
         "id": 1,
+        "name": "Green Code",
+        "description": "Caderno de campo digital com IA no WhatsApp - Protótipo",
+        "url": "",
+        "github": "https://github.com/icaroQre/GreenCode-Whatsap",
+        "image": "/images/green-code.png"
+    },
+    {
+        "id": 2,
+        "name": "Full-Stack Barber",
+        "description": "Projeto Full Stack para gerenciamento de barbearias, desenvolvido com NextJs, Tailwind CSS e Shadcn/ui",
+        "url": "https://fullstack-barber-black.vercel.app/",
+        "github": "https://github.com/icaroQre/fullstack-barber",
+        "image": "/images/fsb.png"
+    },
+    {
+        "id": 3,
         "name": "ToDo List",
         "description": "Projeto pessoal para estudo de Java Scripts, Manipulação da DOM e CSS",
         "url": "https://to-do-list-blond-zeta.vercel.app/",
         "github": "https://github.com/icaroQre/To-Do-List",
         "image": "/images/todoListHome.png"
-    },
-    {
-        "id": 2,
-        "name": "Instagram Copy",
-        "description": "Cópia da tela de login do instagram com o objetivo de estudo das propriedades de CSS",
-        "url": "https://instagram-login-copy.vercel.app/",
-        "github": "https://github.com/icaroQre/Instagram-Login-Copy",
-        "image": "/images/instagramHome.png"
-    },
-    {
-        "id": 3,
-        "name": "Hackaton Turismo",
-        "description": "Aplicação produzida em um hackaton com o objetivo de ser uma ferramenta para o turismo local, desenvolvido utilizando React e Styled Components",
-        "url": "https://hackaton-turismo.vercel.app/",
-        "github": "https://github.com/icaroQre/Hackaton-Turismo",
-        "image": "/images/localizeHome.png"
     },
     {
         "id": 4,
