@@ -13,7 +13,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({project}: ProjectCardProps) =>
 
     return(
         <Fade direction="up" triggerOnce={true}>
-            <div className="w-[300px] h-[200px] md:w-[350px] md:h-[250px] m-8 rounded-2xl cursor-pointer overflow-hidden">
+            <div className="w-[300px] h-[200px] md:w-[350px] md:h-[250px] m-2 rounded-lg cursor-pointer overflow-hidden">
                 <div className="w-[300px] h-[400px] md:w-[350px] md:h-[500px] flex flex-col items-start justify-start hover:translate-y-[-200px] md:hover:translate-y-[-250px] bg-inherit transition-all">
                     <div className="w-[300px] h-[200px] md:w-[350px] md:h-[250px] relative items-center justify-center">
                         <Image src={project.image!} alt="project-image" fill={true} style={{objectFit: "cover"}} sizes="(max-width: 768px)"/>
