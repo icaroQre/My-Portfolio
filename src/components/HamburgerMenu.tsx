@@ -21,7 +21,7 @@ const HamburgerMenu = () => {
                 <li className='px-16 py-4 text-[#FFFFFF] flex items-center justify-center'> <LinkScroll onClick={toogleMenu} to="HeroSection" smooth={true}> Home </LinkScroll> </li>
                 <li className='px-16 py-4 text-[#FFFFFF] flex items-center justify-center'> <LinkScroll onClick={toogleMenu} to="AboutSection" smooth={true}> Sobre </LinkScroll> </li>
                 <li className='px-16 py-4 text-[#FFFFFF] flex items-center justify-center'> <Link href="https://github.com/icaroQre"> Git Hub </Link> </li>
-                <li className='px-16 py-4 text-[#FFFFFF] flex items-center justify-center'> <LinkScroll onClick={toogleMenu} to="HeroSection" smooth={true}> Contato </LinkScroll> </li>
+                <li className='px-16 py-4 text-[#FFFFFF] flex items-center justify-center'> <LinkScroll onClick={toogleMenu} to="ContactSection" smooth={true}> Contato </LinkScroll> </li>
                 <li className='px-16 py-4 text-[#FFFFFF] flex items-center justify-center'> <LinkScroll onClick={toogleMenu} to="ProjectSection" smooth={true}> Projetos </LinkScroll> </li>
             </ul>
             <CloseRoundedIcon sx={{ color: '#FFFFFF', fontSize: 52 }} />
