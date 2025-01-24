@@ -9,6 +9,14 @@
     },
     {
         "id": 2,
+        "name": "Rachando a Conta",
+        "description": "Projeto para auxiliar na divisão proporcional de comandas consumidas em grupo",
+        "url": "",
+        "github": "https://github.com/icaroQre/rachando-a-conta",
+        "image": "/images/rachando-a-conta.png"
+    },
+    {
+        "id": 3,
         "name": "Full-Stack Barber",
         "description": "Projeto Full Stack para gerenciamento de barbearias, desenvolvido com NextJs, Tailwind CSS e Shadcn/ui",
         "url": "https://fullstack-barber-black.vercel.app/",
@@ -16,7 +24,15 @@
         "image": "/images/fsb.png"
     },
     {
-        "id": 3,
+        "id": 4,
+        "name": "UI/UX Design",
+        "description": "Projeto UI/UX para Landing Page de um Studio",
+        "url": "",
+        "github": "",
+        "image": "/images/uiux-tattoo.png"
+    },
+    {
+        "id": 5,
         "name": "Organni",
         "description": "Protótipo UI/UX no Figma de uma solução para produtores orgânicos ",
         "url": "https://mk-combos.vercel.app//",
@@ -24,27 +40,11 @@
         "image": "/images/organni.png"
     },
     {
-        "id": 4,
+        "id": 6,
         "name": "Super Mario Game",
         "description": "Projeto de um jogo simples para fins de estudo sobre propriedades de Java Script e CSS. Tendo como base Super Mario",
         "url": "https://mario-game-xi.vercel.app/",
         "github": "https://github.com/icaroQre/Mario-Game",
         "image": "/images/marioHome.png"
-    },
-    {
-        "id": 5,
-        "name": "MK Combos",
-        "description": "Projeto de estudo para o uso de RegEx em JavaScript com a temática de Mortal Kombat",
-        "url": "https://mk-combos.vercel.app//",
-        "github": "https://github.com/icaroQre/MK-Combos",
-        "image": "/images/mkCombosHome.png"
-    },
-    {
-        "id": 6,
-        "name": "ToDo List",
-        "description": "Projeto pessoal para estudo de Java Scripts, Manipulação da DOM e CSS",
-        "url": "https://to-do-list-blond-zeta.vercel.app/",
-        "github": "https://github.com/icaroQre/To-Do-List",
-        "image": "/images/todoListHome.png"
     }
 ]
