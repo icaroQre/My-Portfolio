@@ -3,7 +3,7 @@
     "id": 1,
     "name": "Rachando a Conta",
     "description": "Aplicação para auxiliar na divisão proporcional de comandas consumidas em grupo, desenvolvida com NextJs e Tailwind CSS",
-    "url": "",
+    "url": "https://rachando-a-conta.vercel.app/",
     "github": "https://github.com/icaroQre/rachando-a-conta",
     "image": "/images/rachando-a-conta.png"
   },
@@ -19,7 +19,7 @@
     "id": 3,
     "name": "MyLinks",
     "description": "MyLinks, uma plataforma que permite aos usuários criar e compartilhar seus links personalizados. Desenvolvido em Laravel e TailwindCSS",
-    "url": "",
+    "url": "https://github.com/icaroQre/MyLinks-Laravel",
     "github": "https://github.com/icaroQre/MyLinks-Laravel",
     "image": "/images/home-mylinks2.png"
   },
