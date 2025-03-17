@@ -1,50 +1,50 @@
 [
-    {
-        "id": 1,
-        "name": "Green Code",
-        "description": "Integração Inteligência Artificial com WhatsApp, para um caderno de campo digital",
-        "url": "",
-        "github": "https://github.com/icaroQre/GreenCode-Whatsap",
-        "image": "/images/logo-greencode.png"
-    },
-    {
-        "id": 2,
-        "name": "Rachando a Conta",
-        "description": "Projeto para auxiliar na divisão proporcional de comandas consumidas em grupo",
-        "url": "",
-        "github": "https://github.com/icaroQre/rachando-a-conta",
-        "image": "/images/rachando-a-conta.png"
-    },
-    {
-        "id": 3,
-        "name": "Full-Stack Barber",
-        "description": "Projeto Full Stack para gerenciamento de barbearias, desenvolvido com NextJs, Tailwind CSS e Shadcn/ui",
-        "url": "https://fullstack-barber-black.vercel.app/",
-        "github": "https://github.com/icaroQre/fullstack-barber",
-        "image": "/images/fsb.png"
-    },
-    {
-        "id": 4,
-        "name": "UI/UX Design",
-        "description": "Projeto UI/UX para Landing Page de um Studio",
-        "url": "",
-        "github": "",
-        "image": "/images/uiux-tattoo2.png"
-    },
-    {
-        "id": 5,
-        "name": "Organni",
-        "description": "Protótipo UI/UX no Figma de uma solução para produtores orgânicos ",
-        "url": "https://mk-combos.vercel.app//",
-        "github": "https://github.com/icaroQre/MK-Combos",
-        "image": "/images/organni.png"
-    },
-    {
-        "id": 6,
-        "name": "Super Mario Game",
-        "description": "Projeto de um jogo simples para fins de estudo sobre propriedades de Java Script e CSS. Tendo como base Super Mario",
-        "url": "https://mario-game-xi.vercel.app/",
-        "github": "https://github.com/icaroQre/Mario-Game",
-        "image": "/images/marioHome.png"
-    }
+  {
+    "id": 1,
+    "name": "Rachando a Conta",
+    "description": "Aplicação para auxiliar na divisão proporcional de comandas consumidas em grupo, desenvolvida com NextJs e Tailwind CSS",
+    "url": "",
+    "github": "https://github.com/icaroQre/rachando-a-conta",
+    "image": "/images/rachando-a-conta.png"
+  },
+  {
+    "id": 2,
+    "name": "Green Code",
+    "description": "Integração de Inteligência Artificial com WhatsApp, para um caderno de campo digital, desenvolvido com NodeJS e API da OpenAI",
+    "url": "https://github.com/icaroQre/GreenCode-Whatsap",
+    "github": "https://github.com/icaroQre/GreenCode-Whatsap",
+    "image": "/images/logo-greencode.png"
+  },
+  {
+    "id": 3,
+    "name": "MyLinks",
+    "description": "MyLinks, uma plataforma que permite aos usuários criar e compartilhar seus links personalizados. Desenvolvido em Laravel e TailwindCSS",
+    "url": "",
+    "github": "https://github.com/icaroQre/MyLinks-Laravel",
+    "image": "/images/home-mylinks2.png"
+  },
+  {
+    "id": 4,
+    "name": "Full-Stack Barber",
+    "description": "Aplicação Full Stack para gerenciamento de barbearias, desenvolvido com NextJs, Mongo DB, Tailwind CSS e Shadcn/ui",
+    "url": "https://fullstack-barber-black.vercel.app/",
+    "github": "https://github.com/icaroQre/fullstack-barber",
+    "image": "/images/fsb.png"
+  },
+  {
+    "id": 5,
+    "name": "UI/UX Design",
+    "description": "UI/UX Compelto de uma Landing Page para um Studio de Tatuagem, desenvolvido no Figma",
+    "url": "https://www.figma.com/design/jDJcQJqZNwAOzM1m4PXg5I/Tattoo-Landing-Page?node-id=0-1&t=NcoNZE8tIwFACk5h-1",
+    "github": "https://www.figma.com/design/jDJcQJqZNwAOzM1m4PXg5I/Tattoo-Landing-Page?node-id=0-1&t=NcoNZE8tIwFACk5h-1",
+    "image": "/images/uiux-tattoo2.png"
+  },
+  {
+    "id": 6,
+    "name": "Organni",
+    "description": "Protótipo UI/UX no Figma de uma solução para produtores orgânicos",
+    "url": "https://www.figma.com/proto/MKMRmIFd4bZctKaRFoXUaE/Organni?node-id=8-34&t=wJyDDKpQuujA2jjY-1",
+    "github": "https://github.com/icaroQre/MK-Combos",
+    "image": "/images/organni.png"
+  }
 ]

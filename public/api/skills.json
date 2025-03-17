@@ -1,57 +1,67 @@
 [
-    {
-        "'id": 1,
-        "name": "html",
-        "description": "HTML é uma linguagem de marcação utilizada na construção de páginas na Web. Documentos HTML podem ser interpretados por navegadores. A tecnologia é fruto da junção entre os padrões HyTime e SGML."
-    },
-    {
-        "'id": 2,
-        "name": "css",
-        "description": "Cascading Style Sheets é um mecanismo para adicionar estilos a uma página web, aplicado diretamente nas tags HTML ou ficar contido dentro das tags <style>."
-    },
-    {
-        "'id": 3,
-        "name": "figma",
-        "description": "Figma é um editor gráfico de vetor e prototipagem de projetos de design baseado principalmente no navegador web, com ferramentas offline adicionais para aplicações desktop para GNU/Linux, macOS e Windows."
-    },
-    {
-        "'id": 4,
-        "name": "javaScript",
-        "description": "JavaScript é uma linguagem de programação interpretada estruturada, de script em alto nível com tipagem dinâmica fraca e multiparadigma. Juntamente com HTML e CSS, o JavaScript é uma das três principais tecnologias da World Wide Web."
-    },
-    {
-        "'id": 5,
-        "name": "typeScript",
-        "description": "TypeScript é uma linguagem de programação de código aberto desenvolvida pela Microsoft. É um superconjunto sintático estrito de JavaScript e adiciona tipagem estática opcional à linguagem."
-    },
-    {
-        "'id": 6,
-        "name": "reactJs",
-        "description": "O React é uma biblioteca front-end JavaScript de código aberto com foco em criar interfaces de usuário em páginas web."
-    },
-    {
-        "'id": 7,
-        "name": "nextJs",
-        "description": "Next.js é uma estrutura da web de desenvolvimento front-end React de código aberto criada por Vercel que permite funcionalidades como renderização do lado do servidor e geração de sites estáticos para aplicativos da web baseados em React."
-    },
-    {
-        "'id": 8,
-        "name": "styledComponents",
-        "description": "styled-components é o resultado de nos perguntarmos como poderíamos aprimorar CSS para estilizar sistemas de componentes React. Ao focar em um único caso de uso, conseguimos otimizar a experiência para os desenvolvedores, bem como o resultado para os usuários finais."
-    },
-    {
-        "'id": 9,
-        "name": "tailwind",
-        "description": "Traduzido do inglês-Tailwind CSS é uma estrutura CSS de código aberto. A principal característica desta biblioteca é que, ao contrário de outros frameworks CSS como Bootstrap, ela não fornece uma série de classes predefinidas para elementos como botões ou tabelas."
-    },
-    {
-        "'id": 10,
-        "name": "mongoDb",
-        "description": "MongoDB é um software de banco de dados orientado a documentos livre, de código aberto e multiplataforma, escrito na linguagem C++."
-    },
-    {
-        "'id": 11,
-        "name": "postgreSql",
-        "description": "PostgreSQL é um sistema gerenciador de banco de dados objeto relacional, desenvolvido como projeto de código aberto"
-    }
+  {
+    "'id": 1,
+    "name": "html",
+    "description": "HTML é uma linguagem de marcação utilizada na construção de páginas na Web. Documentos HTML podem ser interpretados por navegadores. A tecnologia é fruto da junção entre os padrões HyTime e SGML."
+  },
+  {
+    "'id": 2,
+    "name": "css",
+    "description": "Cascading Style Sheets é um mecanismo para adicionar estilos a uma página web, aplicado diretamente nas tags HTML ou ficar contido dentro das tags <style>."
+  },
+  {
+    "'id": 3,
+    "name": "figma",
+    "description": "Figma é um editor gráfico de vetor e prototipagem de projetos de design baseado principalmente no navegador web, com ferramentas offline adicionais para aplicações desktop para GNU/Linux, macOS e Windows."
+  },
+  {
+    "'id": 4,
+    "name": "javaScript",
+    "description": "JavaScript é uma linguagem de programação interpretada estruturada, de script em alto nível com tipagem dinâmica fraca e multiparadigma. Juntamente com HTML e CSS, o JavaScript é uma das três principais tecnologias da World Wide Web."
+  },
+  {
+    "'id": 5,
+    "name": "typeScript",
+    "description": "TypeScript é uma linguagem de programação de código aberto desenvolvida pela Microsoft. É um superconjunto sintático estrito de JavaScript e adiciona tipagem estática opcional à linguagem."
+  },
+  {
+    "'id": 6,
+    "name": "reactJs",
+    "description": "O React é uma biblioteca front-end JavaScript de código aberto com foco em criar interfaces de usuário em páginas web."
+  },
+  {
+    "'id": 7,
+    "name": "nextJs",
+    "description": "Next.js é uma estrutura da web de desenvolvimento front-end React de código aberto criada por Vercel que permite funcionalidades como renderização do lado do servidor e geração de sites estáticos para aplicativos da web baseados em React."
+  },
+  {
+    "'id": 8,
+    "name": "styledComponents",
+    "description": "styled-components é o resultado de nos perguntarmos como poderíamos aprimorar CSS para estilizar sistemas de componentes React. Ao focar em um único caso de uso, conseguimos otimizar a experiência para os desenvolvedores, bem como o resultado para os usuários finais."
+  },
+  {
+    "'id": 9,
+    "name": "tailwind",
+    "description": "Traduzido do inglês-Tailwind CSS é uma estrutura CSS de código aberto. A principal característica desta biblioteca é que, ao contrário de outros frameworks CSS como Bootstrap, ela não fornece uma série de classes predefinidas para elementos como botões ou tabelas."
+  },
+  {
+    "'id": 10,
+    "name": "mongoDb",
+    "description": "MongoDB é um software de banco de dados orientado a documentos livre, de código aberto e multiplataforma, escrito na linguagem C++."
+  },
+  {
+    "'id": 11,
+    "name": "postgreSql",
+    "description": "PostgreSQL é um sistema gerenciador de banco de dados objeto relacional, desenvolvido como projeto de código aberto"
+  },
+  {
+    "'id": 12,
+    "name": "php",
+    "description": "PHP é uma linguagem interpretada livre, usada originalmente apenas para o desenvolvimento de aplicações presentes e atuantes no lado do servidor, capazes de gerar conteúdo dinâmico na World Wide Web."
+  },
+  {
+    "'id": 13,
+    "name": "laravel",
+    "description": "Laravel é um framework PHP livre e open-source criado por Taylor B. Otwell para o desenvolvimento de sistemas web que utilizam o padrão MVC (model, view, controller). Algumas características proeminentes do Laravel são sua sintaxe simples e concisa, um sistema modular com gerenciador de dependências dedicado, várias formas de acesso a banco de dados relacionais e vários utilitários indispensáveis no auxílio ao desenvolvimento e manutenção de sistemas."
+  }
 ]
